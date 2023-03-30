@@ -1,0 +1,22 @@
+.leaflet-container {
+    width: 100wh; 
+    height: 100vh;
+}
+
+.request-popup .leaflet-popup-content-wrapper {
+  text-align: center;
+}
+
+.input{
+  text-align: center;
+}
+
+.input-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.error-text{
+  color: red;
+}
+

@@ -1,0 +1,60 @@
+.ContactUs-background {
+    background-color: #0c4897b7;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* align to the top */
+    flex-direction: column;
+    /* change direction */
+    padding: 2%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    /* add margin to separate the image and the content */
+}
+
+.ContactUs-pic {
+    transition: transform 0.5s ease;
+    margin-bottom: 2rem;
+    align-self: center;
+}
+
+.ContactUs-pic:hover {
+    transform: scale(1.1);
+}
+
+.ContactUs-content {
+    color: aliceblue;
+    width: 80%;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.ContactUs-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    /* align to the center */
+}
+
+.ContactUs-content p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.a-tag {
+    color: #17cf97;
+}
+
+.a-tag:hover {
+    cursor: pointer;
+    color: aliceblue;
+    transition: all 0.4s ease-out;
+}

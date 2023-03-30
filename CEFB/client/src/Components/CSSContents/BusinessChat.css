@@ -1,0 +1,155 @@
+.BusinessChat {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.chatselect-background {
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  background-color: #0c4897b7;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  flex-shrink: 3;
+  overflow-y: scroll;
+}
+
+.chatselect-button {
+  flex: 1;
+  align-self: center;
+  height: 150px;
+  width: 80%;
+}
+
+.chatbox-container {
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  background-color: #bebebeb7;
+  flex: 1;
+  flex-grow: 3;
+}
+
+.chatbox-background {
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  height: 577px;
+  overflow-y: scroll;
+}
+
+.chatselect-button {
+  flex: 1;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  min-height: 25px;
+  max-height: 25px;
+  width: 80%;
+}
+
+.chatselect-button:hover,
+.chatselect-button:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.chatselect-button:hover {
+  transform: translateY(-1px);
+}
+
+.chatselect-button:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.message.received {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  float: left;
+  clear: both;
+}
+
+.message.sent {
+  background-color: rgb(200, 252, 148);
+  border-radius: 20px;
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  float: right;
+  clear: both;
+}
+
+.message-text {
+  color: rgb(0, 0, 0);
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: left;
+  float: left;
+  clear: both;
+}
+
+.message-name {
+  color: rgb(68, 84, 231);
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  font-weight: 3000;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: left;
+  float: left;
+  clear: both;
+}
+
+.message-input {
+  width: 90%;
+}
+
+.selected-user {
+  color: rgb(92, 255, 220);
+  -webkit-text-stroke: 1px black;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.chats {
+  color: rgb(253, 253, 253);
+  -webkit-text-stroke: 1px black;
+  font-size: 32px;
+  font-weight: bolder;
+}

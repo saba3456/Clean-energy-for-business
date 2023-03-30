@@ -1,0 +1,80 @@
+.LoginRegister {
+  background-color: #0c4897b7;
+
+}
+
+.Form {
+
+  position: relative;
+  left: 400px;
+  box-sizing: 500px 600px;
+  width: 600px;
+  height: auto;
+  padding: 50px;
+  justify-content: center;
+  background-color: #0c4897b7;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  position: relative;
+}
+
+form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 250px;
+  height: auto;
+  padding: 9px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+label {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.message {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgb(6, 0, 6);
+}
+
+.error-message {
+  font-size: 0.9rem;
+  text-align: center;
+
+  color: rgb(207, 10, 10);
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: linear-gradient(90deg,
+      rgb(39, 143, 255) 0%,
+      rgb(12, 99, 250) 100%);
+  transition: all 0.4s ease-out;
+}
+
+.btn {
+  width: 30%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background: linear-gradient(90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
